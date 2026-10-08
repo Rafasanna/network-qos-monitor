@@ -1,0 +1,44 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript
+**/node_modules/
+**/npm-debug.log*
+**/yarn-error.log*
+**/coverage/
+
+# Android / Gradle
+**/.gradle/
+**/.kotlin/
+**/.cxx/
+**/build/
+**/dist/
+**/local.properties
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.mobileprovision
+**/*.pem
+**/*.key
+**/google-services.json
+**/GoogleService-Info.plist
+
+# iOS / CocoaPods
+**/Pods/
+**/DerivedData/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+**/.xcode.env.local
+**/vendor/bundle/
+
+# IDE and operating system
+**/.idea/
+**/.vscode/
+**/*.iml
+**/.DS_Store
+
+# Metro bundles and temporary files
+**/*.jsbundle
+**/.metro-health-check*
